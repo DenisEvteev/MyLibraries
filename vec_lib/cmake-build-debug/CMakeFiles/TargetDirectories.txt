@@ -1,0 +1,3 @@
+/home/denis/CLionProjects/vec_lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/denis/CLionProjects/vec_lib/cmake-build-debug/CMakeFiles/vec_lib.dir
+/home/denis/CLionProjects/vec_lib/cmake-build-debug/CMakeFiles/edit_cache.dir
