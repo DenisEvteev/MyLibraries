@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/vec_lib.dir/main.cpp.o CMakeFiles/vec_lib.dir/home/denis/CLionProjects/String_Lib/String.cpp.o  -o vec_lib 
