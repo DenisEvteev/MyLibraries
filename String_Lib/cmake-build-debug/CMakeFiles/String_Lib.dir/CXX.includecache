@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/denis/CLionProjects/MyExceptions/My_Exception.hpp
+bits/exception.h
+-
+iostream
+-
+
+/home/denis/CLionProjects/String_Lib/String.hpp
+/home/denis/CLionProjects/MyExceptions/My_Exception.hpp
+-
+iostream
+-
+cstdio
+-
+exception
+-
+cstring
+-
+locale
+-
+codecvt
+-
+string
+-
+
+/home/denis/CLionProjects/String_Lib/main.cpp
+iostream
+-
+new
+-
+cstdlib
+-
+String.hpp
+/home/denis/CLionProjects/String_Lib/String.hpp
+

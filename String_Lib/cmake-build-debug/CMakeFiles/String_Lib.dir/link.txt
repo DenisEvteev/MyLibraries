@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/String_Lib.dir/main.cpp.o CMakeFiles/String_Lib.dir/String.cpp.o CMakeFiles/String_Lib.dir/home/denis/CLionProjects/MyExceptions/My_Exception.cpp.o  -o String_Lib 
