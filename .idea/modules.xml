@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/String_Lib.iml" filepath="$PROJECT_DIR$/.idea/String_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyLibraries.iml" filepath="$PROJECT_DIR$/.idea/MyLibraries.iml" />
     </modules>
   </component>
 </project>
