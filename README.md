@@ -4,7 +4,7 @@ This repository contains source code of
 String_Lib(class for working with C-strings)
 and Vector_Lib(template dynamic array class)
 
-###***[String_Lib](https://github.com/DenisEvteev/MyLibraries/tree/master/String_Lib)***
+***[String_Lib](https://github.com/DenisEvteev/MyLibraries/tree/master/String_Lib)***
 It'll provide user with :
 
 * Correct work with russian strings(in utf-8 russian letters consist of two bytes)
@@ -15,9 +15,9 @@ It'll provide user with :
 and giving the data of object in streaming output
 * String class has move-constructor and move assignment operator
 
-###***[Vector_Lib](https://github.com/DenisEvteev/MyLibraries/tree/master/vec_lib)***
+***[Vector_Lib](https://github.com/DenisEvteev/MyLibraries/tree/master/vec_lib)***
 It is a template container -- emulation of std::vector from standard library
-#### ***TODO List for vec container***
+#### ***TODO List for vec_lib container***
 - [ ] Write move-constructor
 - [ ] Write move assignment operator 
 - [ ] Write classes for removing references and pointers 
