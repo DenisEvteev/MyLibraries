@@ -8,6 +8,11 @@
 
 #include <iostream>
 
+
+template<class T>
+T&& my_forward(std::remove_reference_t<T>& obj);
+
+
 template <class T>
 class TrackingAllocator {
 public:
@@ -40,8 +45,8 @@ public:
     }
 
     template <class U, class... Args>
-    void construct(U* ptr, const Args&... args)const{
-        new(ptr) U(args...);
+    void construct(U* ptr, Args&&... args)const{
+        new(ptr) U(my_forward<Args>(args)...);
     }
 
     template <class U>
@@ -58,6 +63,14 @@ private:
     static std::size_t count_allocations;
 
 };
+
+template<class T>
+T&& my_forward(std::remove_reference_t<T>& obj){
+    return static_cast<T&&>(obj);
+}
+
+
+
 
 template<class T>
 typename std::size_t TrackingAllocator<T>::count_allocations = 0;
